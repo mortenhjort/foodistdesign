@@ -23,6 +23,10 @@ ul{
   }
 }
 
+figure{
+  margin:0;
+}
+
 a:link,a:visited,a:hover,a:active {
     text-decoration: none;
     color:initial;
@@ -49,25 +53,4 @@ img{
 
 .tc{
   text-align: center;
-}
-
-#login{
-  background: white;
-  border:$border;
-  width: 600px;
-  padding: 1rem;
-  text-align: center;
-  button:first-child{
-    margin-bottom: 1rem
-  }
-  p{
-    padding:1rem 0 2rem;
-  }
-  span p{
-    color:$grey;
-    padding:2rem 1rem 1rem;
-    margin: 0;
-    font-style: italic;
-    font-size: 12px;
-  }
 }

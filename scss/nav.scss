@@ -4,9 +4,9 @@ nav{
   position: fixed;
   top:0;
   z-index: 800;
-  background: linear-gradient(to right, #ff9966, #ff5e62);
+  background: $gradient;
+  // background: linear-gradient(to right, #06beb6, #48b1bf);
   width: 100%;
-  border-bottom: 2px solid $bordercolor;
 
   .inner{
     display: flex;
@@ -26,19 +26,20 @@ nav{
     }
     input{
       font-size: 2rem;
+      font-weight: 300;
       background: none;
       color:white;
       &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $bordercolor;
+        color: $bordercolor;font-weight: 100;
       }
       &::-moz-placeholder { /* Firefox 19+ */
-        color: $bordercolor;
+        color: $bordercolor;font-weight: 100;
       }
       &:-ms-input-placeholder { /* IE 10+ */
-        color: $bordercolor;
+        color: $bordercolor;font-weight: 100;
       }
       &:-moz-placeholder { /* Firefox 18- */
-        color: $bordercolor;
+        color: $bordercolor;font-weight: 100;
       }
     }
   }
@@ -51,9 +52,10 @@ nav{
       margin-right: 2rem;
       font-weight: 100;
       color:white;
-      // &.active{
-      //   color:$brand;
-      // }
+      &.active{
+        // color:$brand;
+        // text-decoration: underline;
+      }
     }
   }
 }
