@@ -1,0 +1,43 @@
+@import 'variables';
+
+nav{
+  position: fixed;
+  top:0;
+  z-index: 800;
+  background: white;
+  width: 100%;
+  border-bottom: 2px solid $bordercolor;
+
+  .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    img{
+      width: 2rem;
+      height: 2rem;
+    }
+    input{
+      font-size: 2rem;
+    }
+  }
+
+  ul{
+    display: flex;
+    li{
+      padding:1rem 0;
+      font-size: 1rem;
+      margin-right: 2rem;
+      font-weight: 100;
+
+      &.active{
+        color:$brand;
+      }
+    }
+  }
+}

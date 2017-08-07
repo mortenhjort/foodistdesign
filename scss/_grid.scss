@@ -1,0 +1,19 @@
+#filter{
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  main{
+    // padding-left: 5rem;
+    .grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+      grid-gap: 1rem;
+
+    }
+    // .gridstore{
+    //   display: grid;
+    //   grid-template-columns: 33% 33% 33%;
+    //   grid-gap: 1rem;
+    //
+    // }
+  }
+}

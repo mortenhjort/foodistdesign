@@ -1,0 +1,521 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Foodist</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+  <nav id="d">
+  
+    <div class="inner">
+  
+  
+            <form>
+              <img src="img/icons/search.svg" alt="Searchicon">
+              <input id="mainsearch" type="search" placeholder="Søg efter opskrift..." autofocus="true"></input>
+            </form>
+  
+  
+            <ul>
+              <a href="index.html"><li class="active">Dine opskrifter</li></a>
+              <a href="store.html"><li>Butik</li></a>
+              <a href="#"><li>Madplan</li></a>
+              <a href="login.html"><li>Log Ind/Tilmeld</li></a>
+            </ul>
+  
+    </div>
+  
+  
+  </nav>
+  
+
+
+
+
+
+<div class="content">
+
+
+
+
+
+
+  <main id="filter">
+
+    <aside>
+
+      <div id="owncatalogue">
+        <form>
+          <input class="checkbox" type="checkbox" id="ert" checked>
+          <label class="checkbox-label" for="ert">Søg kun i egne opskrifter</label>
+        </form>
+      </div>
+
+      <ul>
+
+        <li>
+
+            <!-- TYPE / CATEGORY SECTION -->
+            <h4>Type</h4>
+
+            <form>
+              <input class="checkbox" type="checkbox" id="chedckbox">
+              <label class="checkbox-label" for="chedckbox">Morgenmad</label>
+            </form>
+
+
+            <form>
+              <input class="checkbox" type="checkbox" id="checkbgox">
+              <label class="checkbox-label" for="checkbgox">Hovedretter</label>
+            </form>
+
+            <form>
+              <input class="checkbox" type="checkbox" id="sdgdg">
+              <label class="checkbox-label" for="sdgdg">Suppe</label>
+            </form>
+
+            <form>
+              <input class="checkbox" type="checkbox" id="checbkbox">
+              <label class="checkbox-label" for="checbkbox">Salater</label>
+            </form>
+
+            <form>
+              <input class="checkbox" type="checkbox" id="checskbox">
+              <label class="checkbox-label" for="checskbox">Desserter</label>
+            </form>
+
+            <form>
+              <input class="checkbox" type="checkbox" id="chewtcskbox">
+              <label class="checkbox-label" for="chewtcskbox">Drikke</label>
+            </form>
+
+          </li>
+
+
+
+
+          <li>
+
+              <!-- TYPE / CATEGORY SECTION -->
+              <button class="btn">Tilføj diæt-info</button>
+
+              <!-- <h4>Diæt</h4>
+
+              <form>
+                <input class="checkbox" type="checkbox" id="ghj">
+                <label class="checkbox-label" for="ghj">Vegetar</label>
+              </form>
+
+
+              <form>
+                <input class="checkbox" type="checkbox" id="dfg">
+                <label class="checkbox-label" for="dfg">Veganer</label>
+              </form>
+
+              <form>
+                <input class="checkbox" type="checkbox" id="sdf">
+                <label class="checkbox-label" for="sdf">Uden gluten</label>
+              </form> -->
+
+
+
+
+            </li>
+
+
+
+          <li>
+            <!-- Kitchen type -->
+
+            <h4>Køkken</h4>
+
+            <!-- <label class="label" for="select">Choose kitchen</label> -->
+            	<div class="select-wrap">
+            		<select class="select" id="select">
+            			<option value="option">Alle</option>
+            			<option value="option2">Vietnamesisk</option>
+            			<option value="option3">Dansk</option>
+            		</select>
+            	</div>
+          </li>
+
+
+          <li>
+            <!-- Kitchen type -->
+
+            <h4>Udgiver</h4>
+
+            <!-- <label class="label" for="select">Choose kitchen</label> -->
+            	<div class="select-wrap">
+            		<select class="select" id="select">
+            			<option value="option">Alle</option>
+            			<option value="option2">Jamie Oliver</option>
+            			<option value="option3">the Food Club</option>
+            		</select>
+            	</div>
+          </li>
+
+      </ul>
+
+
+    </aside>
+
+    <main>
+
+
+
+
+      <ul class="grid cards">
+      
+        <li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li>
+      
+      
+      
+      
+      
+      
+      
+        <!-- COPY COPY -->
+        <li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li><li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li><li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li><li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li><li>
+          <img src="img/dummy/cards/KOSAN-574_.jpg">
+          <div class="timer">25 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+          </div>
+          <figcaption>
+            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            <span>
+                Test
+            </span>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46263974.jpg">
+          <div class="timer">35 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatiske dumplings</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/CroppedFocusedImage192072047-53-Roast-Beef-Carpaccio.jpg">
+          <div class="timer">2 timer</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/gordonramsey.jpg">
+          </div>
+          <figcaption>
+            <h3>Roastbeef Carpaccio</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/Hummus.jpg">
+          <div class="timer">40 MIN</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/clausmeyer.jpg">
+          </div>
+          <figcaption>
+            <h3>Flægærtehummus</h3>
+          </figcaption>
+        </li>
+        <li>
+          <img src="img/dummy/cards/46261003.jpg">
+          <div class="timer">65 min</div>
+          <div class="avatar">
+            <img class="aimg" src="img/dummy/avatars/jamieoliver.jpg">
+          </div>
+          <figcaption>
+            <h3>Asiatisk rissuppe med rejer</h3>
+          </figcaption>
+        </li>
+      
+      
+      </li>
+      
+
+
+
+    </main>
+
+
+  </main>
+
+
+
+
+
+
+</div >
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+@import 'variables';
+
+ul.rating{
+  padding: 1rem 1.5rem;
+  li{
+    border:none;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    background-size: cover;
+    &.f{
+      background: url(../img/icons/star-full.svg) no-repeat;
+    }
+    &.h{
+      background: url(../img/icons/star-half.svg) no-repeat;
+    }
+    &.e{
+      background: url(../img/icons/star-empty.svg) no-repeat;
+    }
+  }
+
+}
