@@ -4,7 +4,7 @@ nav{
   position: fixed;
   top:0;
   z-index: 800;
-  background: white;
+  background: linear-gradient(to top right, #7474bf, #348ac7);
   width: 100%;
   border-bottom: 2px solid $bordercolor;
 
@@ -18,12 +18,28 @@ nav{
   form{
     display: flex;
     align-items: center;
+
     img{
       width: 2rem;
       height: 2rem;
+      color:white;
     }
     input{
       font-size: 2rem;
+      background: none;
+      color:white;
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        color: $bordercolor;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        color: $bordercolor;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        color: $bordercolor;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        color: $bordercolor;
+      }
     }
   }
 
@@ -34,10 +50,10 @@ nav{
       font-size: 1rem;
       margin-right: 2rem;
       font-weight: 100;
-
-      &.active{
-        color:$brand;
-      }
+      color:white;
+      // &.active{
+      //   color:$brand;
+      // }
     }
   }
 }
