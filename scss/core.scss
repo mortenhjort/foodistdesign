@@ -12,7 +12,8 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6,p{
-  font-weight: 300
+  font-weight: 300;
+  line-height: 1.5rem;
 }
 
 ul{
@@ -42,7 +43,13 @@ img{
 }
 
 #emptypage{
-  height: calc(100vh - 116px);
+  height: calc(100vh - 102px);
+}
+
+#small{
+  background: white;
+  border:$border;
+  width: 600px;
 }
 
 .vhc{

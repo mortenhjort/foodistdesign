@@ -405,6 +405,16 @@
 		"oAP": "\/img\/Icon\r",
 		"oF": 0
 		},
+	"\/img\/icons\/checkmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/checkmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -662,6 +672,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/scss\/shoppinglist.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/shoppinglist.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/scss\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -687,6 +710,18 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/shoppinglist.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/shoppinglist.html",
+		"oF": 0
+		},
+	"\/shoppinglist.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/shoppinglist.html",
+		"oF": 0
 		},
 	"\/store.html": {
 		"ft": 8192,

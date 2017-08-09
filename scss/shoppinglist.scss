@@ -1,0 +1,37 @@
+@import 'variables';
+
+.slist{
+  form{
+    .checkbox-label{
+      &:before, &:after{
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .checkbox:checked+.checkbox-label:after{
+      opacity: .5;
+    }
+    label{
+      padding:1.5rem 0 0 4rem;
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: left;
+      font-weight: 300;
+    }
+  }
+  #add{
+    display: grid;
+    grid-template-columns: 1fr 80px;
+    grid-gap: 1rem;
+    input{
+      border:$border;
+    }
+  }
+  hr{
+    // border-top:1px dotted $bordercolor;
+    margin-top: 1.5rem;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #fafafa, #ddd, #fafafa);
+  }
+}
