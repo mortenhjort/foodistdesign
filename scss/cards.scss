@@ -32,16 +32,42 @@ ul.cards,ul.books{
 
 ul.cards{
   li{
+    &:hover{
+      > ul li{
+        opacity: 1;
+      }
+      .avatar{
+        display: block;
+      }
+    }
+    .avatar{
+      display: none;
+      position: absolute;
+      top:1rem;
+      left:1rem;
+      .aimg{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50px;
+        border:5px solid white;
+      }
+
+    }
     img{
       height: 280px;
       border-radius: 4px 4px 0 0;
     }
+    h3{
+      font-size: 1.7rem;
+      line-height: 2rem;
+    }  
     ul{
       border-top: 1px dashed #e9e9e9;
       // background: #e9e9e9;
       display: flex;
       justify-content: space-around;
       align-items: center;
+      cursor: default;
       li{
         background: none;
         border:none;
@@ -104,21 +130,4 @@ ul.books{
       }
     }
   }
-}
-
-
-.avatar{
-  position: absolute;
-  left:0;
-  top:235px;
-  text-align: center;
-  width: 100%;
-
-  .aimg{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50px;
-    border:5px solid white;
-  }
-
 }
