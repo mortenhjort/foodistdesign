@@ -4,9 +4,15 @@ nav{
   position: fixed;
   top:0;
   z-index: 800;
-  background: $gradient;
+  background: white;
+  border-bottom: 2px solid $bordercolor;
   // background: linear-gradient(to right, #06beb6, #48b1bf);
   width: 100%;
+
+  #colorbar{
+    height: 10px;
+    background: $gradient;
+  }
 
   .inner{
     display: flex;
@@ -22,24 +28,24 @@ nav{
     img{
       width: 2rem;
       height: 2rem;
-      color:white;
+      // color:white;
     }
     input{
       font-size: 2rem;
       font-weight: 300;
       background: none;
-      color:white;
-      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-        color: $bordercolor;font-weight: 100;
+      // color:white;
+      &::-webkit-input-placeholder {
+        color: #ddd;font-weight: 100;
       }
-      &::-moz-placeholder { /* Firefox 19+ */
-        color: $bordercolor;font-weight: 100;
+      &::-moz-placeholder {
+        color: #ddd;font-weight: 100;
       }
-      &:-ms-input-placeholder { /* IE 10+ */
-        color: $bordercolor;font-weight: 100;
+      &:-ms-input-placeholder{
+        color: #ddd;font-weight: 100;
       }
-      &:-moz-placeholder { /* Firefox 18- */
-        color: $bordercolor;font-weight: 100;
+      &:-moz-placeholder {
+        color: #ddd;font-weight: 100;
       }
     }
   }
@@ -51,10 +57,22 @@ nav{
       font-size: 1rem;
       margin-right: 2rem;
       font-weight: 100;
-      color:white;
+      border-radius: $radius;
+      // color:white;
       &.active{
-        // color:$brand;
-        // text-decoration: underline;
+        display: inline-block;
+        position: relative;
+        color:$brand;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            height: 1em;
+            width: 100%;
+            border-bottom: 1px solid;
+            margin-top: .5rem;
+        }
       }
     }
   }

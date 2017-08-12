@@ -7,9 +7,6 @@
 
 
 
-
-
-
   <main id="filter">
 
     <aside>
@@ -110,6 +107,15 @@
           </li>
 
 
+
+          <li>
+            <div class="range-slider">
+            <input class="range-slider__range" type="range" value="100" min="0" max="500">
+            <span class="range-slider__value">0</span>
+          </div>
+          </li>
+
+
           <li>
             <!-- Kitchen type -->
 
@@ -155,4 +161,31 @@
 
 
 </body>
+
+<!-- Load only for rangeslider-use. Just remove in your code -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<script>
+var rangeSlider = function(){
+  var slider = $('.range-slider'),
+      range = $('.range-slider__range'),
+      value = $('.range-slider__value');
+
+  slider.each(function(){
+
+    value.each(function(){
+      var value = $(this).prev().attr('value');
+      $(this).html(value);
+    });
+
+    range.on('input', function(){
+      $(this).next(value).html(this.value);
+    });
+  });
+};
+
+rangeSlider();
+</script>
+
+
 </html>
