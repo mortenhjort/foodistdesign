@@ -20,7 +20,7 @@ body#recipe{
 #hero{
   position: relative;
   width: 100%;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 75px);
   object-fit: cover;
   object-position: center;
   background: black;
@@ -39,16 +39,44 @@ body#recipe{
     }
     h2{
       color: white;
-      font-weight: 300;
-      span{
-        font-weight: 100;
+      font-weight: 100;
+      font-size: 2rem;
+      line-height: 2rem;
+      a{
+        font-weight: 300;
+        color: white;
+        cursor: pointer;
+        &:hover{
+          border-bottom: 1px solid white;
+        }
       }
     }
   }
   img{
     width: 100%;
-    opacity: .5;
+    opacity: .4;
     object-fit: cover;
     height: 100%;
+  }
+}
+
+ul#info{
+  height: 75px;
+  background: $bordercolor;
+  border-bottom: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-gap: 1rem;
+  li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid #ddd;
+    &:last-child{
+      border-right: none;
+    }
+    p{
+      width: 100%;
+    }
   }
 }
