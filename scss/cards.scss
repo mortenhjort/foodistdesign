@@ -8,9 +8,6 @@ ul.cards,ul.books{
     border-radius: $radius;
     transition: .2s all;
     position: relative;
-    // &:hover{
-    //   filter:grayscale(.5);
-    // }
     img{
       width: calc(100% + 2px);
       object-fit: cover;
@@ -32,7 +29,9 @@ ul.cards,ul.books{
 
 ul.cards{
   li{
+    // cursor: move;
     &:hover{
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
       > ul li{
         opacity: 1;
       }
@@ -56,14 +55,15 @@ ul.cards{
     img{
       height: 280px;
       border-radius: 4px 4px 0 0;
+      -webkit-user-drag: none;
+      user-select: none;
     }
     h3{
       font-size: 1.7rem;
       line-height: 2rem;
-    }  
+    }
     ul{
       border-top: 1px dashed #e9e9e9;
-      // background: #e9e9e9;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -75,6 +75,9 @@ ul.cards{
         padding: 1rem;
         display: flex;
         align-items: center;
+        &:hover{
+          box-shadow: none;
+        }
 
         span{
           h5,h6{

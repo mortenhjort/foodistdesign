@@ -25,7 +25,7 @@
   
   
             <ul>
-              <a href="index.html"><li class="active">Dine opskrifter</li></a>
+              <a href="index.html"><li class="active">Opskrifter</li></a>
               <a href="store.html"><li>Butik</li></a>
               <a href="#"><li>Madplan</li></a>
               <a href="shoppinglist.html"><li>Indkøbsliste</li></a>
@@ -95,38 +95,15 @@
               <label class="checkbox-label" for="chewtcskbox">Drikke</label>
             </form>
 
+
+            <a class="addfilters">Tilføj diæter og allegener</a>
+
+
           </li>
 
 
 
 
-          <li>
-
-              <!-- TYPE / CATEGORY SECTION -->
-              <button class="btn">Tilføj diæt-info</button>
-
-              <!-- <h4>Diæt</h4>
-
-              <form>
-                <input class="checkbox" type="checkbox" id="ghj">
-                <label class="checkbox-label" for="ghj">Vegetar</label>
-              </form>
-
-
-              <form>
-                <input class="checkbox" type="checkbox" id="dfg">
-                <label class="checkbox-label" for="dfg">Veganer</label>
-              </form>
-
-              <form>
-                <input class="checkbox" type="checkbox" id="sdf">
-                <label class="checkbox-label" for="sdf">Uden gluten</label>
-              </form> -->
-
-
-
-
-            </li>
 
 
 
@@ -148,15 +125,39 @@
 
 
           <li>
-            <div class="range-slider">
-            <input class="range-slider__range" type="range" value="100" min="0" max="500">
-            <span class="range-slider__value">0</span>
-          </div>
+              <ul>
+                <li>
+                  <label class="rangelabel"><img src="img/icons/cooking.svg" alt="Forberedelsestid">Maks forberedelsestid</label>
+                  <div class="range-slider">
+                    <input class="range-slider__range" type="range" value="45" min="0" max="180">
+                    <span class="range-slider__value">0</span>
+                  </div>
+              </li>
+              <li>
+                <label class="rangelabel"><img src="img/icons/padnote.svg" alt="Manglende ingredienser">Maks ingredienser</label>
+                <div class="range-slider">
+                  <input class="range-slider__range" type="range" value="100" min="0" max="50">
+                  <span class="range-slider__value">0</span>
+              </div>
+            </li>
+            <li>
+              <label class="rangelabel"><img src="img/icons/ice-cream.svg" alt="Kalorier">Maks kalorier</label>
+              <div class="range-slider">
+                <input class="range-slider__range" type="range" value="2000" min="0" max="5000">
+                <span class="range-slider__value">0</span>
+              </div>
+              </li>
+            </ul>
+
+
           </li>
 
 
+
+
+
           <li>
-            <!-- Kitchen type -->
+            <!-- Chefs / Publisher type -->
 
             <h4>Udgiver</h4>
 
@@ -165,7 +166,7 @@
             		<select class="select" id="select">
             			<option value="option">Alle</option>
             			<option value="option2">Jamie Oliver</option>
-            			<option value="option3">the Food Club</option>
+            			<option value="option3">The Food Club</option>
             		</select>
             	</div>
           </li>
@@ -183,36 +184,38 @@
       <ul class="grid cards">
       
         <li>
-          <img src="img/dummy/cards/KOSAN-574_.jpg">
-          <div class="avatar">
-            <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
-          </div>
-          <figcaption>
-            <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
-          </figcaption>
-          <ul>
-              <li>
-                <img src="img/icons/cooking.svg" alt="Forberedelsestid">
-                <span>
-                  <h5>45</h5>
-                  <h6>MIN</h6>
-                </span>
-              </li>
-              <li>
-                <img src="img/icons/ice-cream.svg" alt="Kalorier">
-                <span>
-                  <h5>540</h5>
-                  <h6>Kalorier/portion</h6>
-                </span>
-              </li>
-              <li>
-                <img src="img/icons/padnote.svg" alt="Manglende ingredienser">
+          <a href="recipe.html">
+            <img src="img/dummy/cards/KOSAN-574_.jpg">
+            <div class="avatar">
+              <img class="aimg" src="img/dummy/avatars/thefoodclub.jpg">
+            </div>
+            <figcaption>
+              <h3>Sommersalat med grillede æbler & syltede rødløg</h3>
+            </figcaption>
+            <ul>
+                <li>
+                  <img src="img/icons/cooking.svg" alt="Forberedelsestid">
                   <span>
-                    <h5>7</h5>
-                    <h6>Ingredienser</h6>
+                    <h5>45</h5>
+                    <h6>MIN</h6>
                   </span>
-              </li>
-          </ul>
+                </li>
+                <li>
+                  <img src="img/icons/ice-cream.svg" alt="Kalorier">
+                  <span>
+                    <h5>540</h5>
+                    <h6>Kalorier/portion</h6>
+                  </span>
+                </li>
+                <li>
+                  <img src="img/icons/padnote.svg" alt="Manglende ingredienser">
+                    <span>
+                      <h5>7 (11)</h5>
+                      <h6>Ingredienser</h6>
+                    </span>
+                </li>
+            </ul>
+          </a>
         </li>
         <li>
           <img src="img/dummy/cards/46263974.jpg">

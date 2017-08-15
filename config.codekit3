@@ -27,6 +27,16 @@
 		"oAP": "\/css\/Icon\r",
 		"oF": 0
 		},
+	"\/css\/recipe.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/recipe-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -36,12 +46,6 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/Foodist\/Icon\r": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Foodist\/Icon\r",
-		"oF": 0
 		},
 	"\/head.kit": {
 		"ft": 2048,
@@ -86,6 +90,16 @@
 		"iS": 54801,
 		"oA": 0,
 		"oAP": "\/img\/dummy\/avatars\/jamieoliver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dummy\/avatars\/nadia.jpg": {
+		"ft": 16384,
+		"iS": 12504,
+		"oA": 1,
+		"oAP": "\/img\/dummy\/avatars\/nadia.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -399,6 +413,22 @@
 		"oAP": "\/img\/dummy\/Icon\r",
 		"oF": 0
 		},
+	"\/img\/dummy\/recipes\/full-padthai.jpg": {
+		"ft": 16384,
+		"iS": 660335,
+		"oA": 0,
+		"oAP": "\/img\/dummy\/recipes\/full-padthai.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/dummy\/recipes\/Icon\r": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/img\/dummy\/recipes\/Icon\r",
+		"oF": 0
+		},
 	"\/img\/Icon\r": {
 		"ft": 8192,
 		"oA": 2,
@@ -579,6 +609,18 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/recipe.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recipe.html",
+		"oF": 0
+		},
+	"\/recipe.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/recipe.html",
+		"oF": 0
+		},
 	"\/scss\/buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -698,6 +740,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/ratings.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/recipe.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/recipe.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2509,7 +2564,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsGIF": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.gif",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2532,7 +2587,7 @@
 		"useUnixNewlines": 0
 		},
 	"languageDefaultsJPG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.jpg",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -2618,7 +2673,7 @@
 		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPNG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.png",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",

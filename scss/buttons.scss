@@ -2,12 +2,12 @@
 
 
 .btn{
-  border: none;
   color:white;
   border-radius: $radius;
   padding: 1rem;
   font-size: 1rem;
   cursor: pointer;
+  border: none;
 
   &.brand{
     background: $gradient;
@@ -42,20 +42,8 @@
     background:$google;
     border:$border;
     color:$black;
-
   }
   &.btnblock{
     width: 100%;display: block;
-  }
-}
-
-#filter {
-  aside{
-    button{
-      width: 100%;
-      background: none;
-      color: $grey;
-      border:1px solid $bordercolor;
-    }
   }
 }

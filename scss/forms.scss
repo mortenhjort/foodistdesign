@@ -94,20 +94,19 @@ input, select, textarea {
 
 	position: relative;
 	display: inline-block;
-	margin-right: 0.5rem;
-	padding-left: (22px + 10px);
+	padding-left: 3rem;
 
 	&:before, &:after {
 		@extend .input;
 
 		position: absolute;
-		top: 50%;
+		top: 15%;
 		left: 0;
 		display: inline-block;
 		margin-top: -(18px / 2);
 		padding: 0;
-		width: 18px;
-		height: 18px;
+		width: 30px;
+		height: 30px;
 		content: "";
 	}
 
@@ -191,13 +190,13 @@ input, select, textarea {
 // https://codepen.io/seanstopnik/pen/CeLqA
 
 
-.range-slider {
-  margin: 60px 0 0 0%;
-}
+// .range-slider {
+//   margin: 60px 0 0 0%;
+// }
 
-.range-slider {
-  width: 100%;
-}
+// .range-slider {
+//   width: 100%;
+// }
 
 .range-slider__range {
   -webkit-appearance: none;
