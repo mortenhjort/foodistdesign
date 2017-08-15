@@ -13,6 +13,31 @@ body#recipe{
   }
   .content{
     margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    #ingredients{
+      background: white;
+      border: $border;
+      margin-right: 3rem;
+      .quantity{
+        border-bottom: $border;
+        padding: 1rem 1.5rem;
+      }
+      ul{
+        padding: 1rem 1.5rem;
+        li{
+          font-weight: 100;
+          padding: .5rem;
+        }
+      }
+    }
+    #recipecontent{
+      p{
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+    }
+
   }
 }
 
@@ -65,7 +90,7 @@ ul#info{
   background: $bordercolor;
   border-bottom: 1px solid #ddd;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 80px 1fr 1fr;
   grid-gap: 1rem;
   li{
     display: flex;
@@ -78,5 +103,11 @@ ul#info{
     p{
       width: 100%;
     }
+    #cook{
+      width: 75px;
+      height: 75px;
+      object-fit: cover;
+    }
+
   }
 }
