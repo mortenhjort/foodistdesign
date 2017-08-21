@@ -107,17 +107,36 @@ body#recipe{
         p{
           margin:0 1rem;
           color:#575757;
-          display: initial;
+          display: block;
+          padding: 1rem 0;
         }
         a{
-          &.sfl p:after,&.atf:after{
+          &.sfl p:after,&.atf p:after{
             content: url('../img/icons/heart-empty.svg');
             padding-left: 1rem;
             vertical-align: -webkit-baseline-middle;
             opacity: .6;
           }
-          &.atf:after{
+          &.atf p:after{
             content: url('../img/icons/add.svg');
+          }
+          &.sfl:hover{
+            p{
+              color: $black;
+              &:after{
+                content: url('../img/icons/heart.svg');
+                opacity: .95;
+              }
+            }
+          }
+          &.atf:hover{
+            p{
+              color: $black;
+              &:after{
+                content: url('../img/icons/add-hover.svg');
+                opacity: .95;
+              }
+            }
           }
         }
 

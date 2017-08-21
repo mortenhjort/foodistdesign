@@ -435,6 +435,16 @@
 		"oAP": "\/img\/Icon\r",
 		"oF": 0
 		},
+	"\/img\/icons\/add-hover.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/add-hover.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/icons\/add.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -490,6 +500,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icons\/heart-empty.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icons\/heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icons\/heart.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
