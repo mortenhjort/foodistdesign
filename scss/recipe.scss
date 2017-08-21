@@ -85,29 +85,84 @@ body#recipe{
   }
 }
 
-ul#info{
+#info{
   height: 75px;
   background: $bordercolor;
   border-bottom: 1px solid #ddd;
-  display: grid;
-  grid-template-columns: 80px 1fr 1fr;
-  grid-gap: 1rem;
-  li{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    border-right: 1px solid #ddd;
-    &:last-child{
-      border-right: none;
-    }
-    p{
-      width: 100%;
-    }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
     #cook{
       width: 75px;
       height: 75px;
       object-fit: cover;
     }
+    ul{
+      li{
+        display: inline-block;
+        // border-right: 1px solid #ddd;
+        // &:last-child{
+        //   border:none;
+        // }
+        p{
+          margin:0 1rem;
+          color:#575757;
+          display: initial;
+        }
+        a{
+          &.sfl p:after,&.atf:after{
+            content: url('../img/icons/heart-empty.svg');
+            padding-left: 1rem;
+            vertical-align: -webkit-baseline-middle;
+            opacity: .6;
+          }
+          &.atf:after{
+            content: url('../img/icons/add.svg');
+          }
+        }
 
-  }
+        img{
+          opacity: .6;
+        }
+      }
+    }
+
+    ul#data{
+      display: flex;
+      opacity: .8;
+      li{
+        display: flex;
+        margin: 0 2rem;
+        span{
+          h5,h6{
+            margin:0;
+            line-height: 1rem;
+          }
+          h5{
+            font-weight: 500;
+          }
+          h6{
+            color:$grey;
+            font-size: .6rem;
+          }
+        }
+
+        img{
+          width: 1.8rem;
+          height: 1.8rem;
+          opacity: .6;
+          margin-right: .5rem;
+        }
+      }
+
+    }
+}
+
+.timer{
+  background: $grey;
+  color:white;
+  border-radius: $radius;
+  padding: .5rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
