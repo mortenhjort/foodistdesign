@@ -318,7 +318,7 @@
 		"oAP": "\/img\/dummy\/cards\/46261003.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/46263974.jpg": {
@@ -328,7 +328,7 @@
 		"oAP": "\/img\/dummy\/cards\/46263974.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/chicken-pad-thai-94082-1.jpg": {
@@ -358,7 +358,7 @@
 		"oAP": "\/img\/dummy\/cards\/Hummus.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/Icon\r": {
@@ -374,7 +374,7 @@
 		"oAP": "\/img\/dummy\/cards\/IMG_0438_.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/IMG_4083_.jpg": {
@@ -384,7 +384,7 @@
 		"oAP": "\/img\/dummy\/cards\/IMG_4083_.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/IMG_8217_.jpg": {
@@ -394,7 +394,7 @@
 		"oAP": "\/img\/dummy\/cards\/IMG_8217_.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/KOSAN-574_.jpg": {
@@ -404,7 +404,7 @@
 		"oAP": "\/img\/dummy\/cards\/KOSAN-574_.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/cards\/KOSAN-grillet-agurk.jpg": {
@@ -414,7 +414,7 @@
 		"oAP": "\/img\/dummy\/cards\/KOSAN-grillet-agurk.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dummy\/Icon\r": {
@@ -631,6 +631,18 @@
 		"oAP": "\/nav.html",
 		"oF": 0
 		},
+	"\/planner.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/planner.html",
+		"oF": 0
+		},
+	"\/planner.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/planner.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -767,6 +779,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/nav.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/planner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/planner.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
